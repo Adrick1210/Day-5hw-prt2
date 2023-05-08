@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Merriweather:wght@300&display=swap");
+
+.page-head {
+  margin-top: 5px;
+  font-family: "Dancing Script", sans-serif, "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #c4b52b;
+  text-shadow: 1px 2px 2px rgba(5, 5, 5, 0.927);
+}
+
+h1 {
+  text-align: center;
+  font-family: "Merriweather", sans-serif, "Times New Roman", Times, serif;
+}
+
+.navbar {
+  display: flex;
+  gap: 150px;
+  height: 55px;
+  width: 100%;
+}
+
+.contact-phone {
+  position: relative;
+  margin-left: 900px;
+  margin-top: 14px;
+  color: rgb(170, 166, 166);
+  font-size: 1.2rem;
+}
+
+.login {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  font-size: 1.2rem;
+  height: 40px;
+  margin-top: 3px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  height: 62px;
+}
+
+.nav-container .lines {
+  display: block;
+  height: 26px;
+  width: 32px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav-container .lines .line {
+  display: block;
+  height: 3px;
+  width: 85%;
+  border-radius: 10px;
+  background: #c4b52b;
+}
+
+.showcase img {
+  background-size: cover;
+  margin-left: 0;
+  height: 650px;
+  width: 100%;
+}
+
+.first-container h1 {
+  position: relative;
+  margin-top: 40px;
+}
+
+.title {
+  position: absolute;
+  top: 120px;
+  left: 170px;
+  font-size: 2.5rem;
+  font-family: "Merriweather", sans-serif, "Times New Roman", Times, serif;
+}
+
+.sub-head {
+  position: absolute;
+  top: 290px;
+  left: 125px;
+  font-size: 2.2rem;
+  font-family: "Dancing Script", sans-serif, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.img-but {
+  position: absolute;
+  top: 510px;
+  left: 260px;
+}
+
+.img-but button {
+  cursor: pointer;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  height: 70px;
+  font-size: 1.2rem;
+  background-color: #c4b52b;
+}
+
+.content-1 {
+  margin-left: 20px;
+}
+
+.card-1 img {
+  height: 445px;
+  width: 245px;
+  border-radius: 25px;
+  opacity: 0.6;
+}
+
+.c-1 {
+  color: white;
+  position: relative;
+  top: -415px;
+  left: 48px;
+  font-size: 1.3rem;
+}
+
+.c-1-but {
+  position: relative;
+  top: -165px;
+  left: 25px;
+}
+
+.c-1-but button {
+  color: white;
+  cursor: pointer;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  height: 70px;
+  font-size: 1.2rem;
+  background-color: #c4b52b;
+}
+
+footer {
+  background-color: #c4b52b;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 30px;
+  width: 100%;
+  font-size: 1.2rem;
+}
