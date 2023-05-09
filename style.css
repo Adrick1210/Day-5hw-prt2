@@ -1,18 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script&family=Merriweather:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .page-head {
   margin-top: 5px;
   font-family: "Dancing Script", sans-serif, "Times New Roman", Times, serif;
   font-style: italic;
   color: #c4b52b;
-  text-shadow: 1px 2px 2px rgba(5, 5, 5, 0.927);
+  text-shadow: 1px 2px 2px rgba(5, 5, 5, 0.9);
 }
 
 h1 {
   text-align: center;
+  color: #c4b52b;
   font-family: "Merriweather", sans-serif, "Times New Roman", Times, serif;
+}
+
+.title {
+  color: black;
 }
 
 .navbar {
@@ -38,7 +48,7 @@ h1 {
   background-color: white;
   font-size: 1.2rem;
   height: 40px;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .nav-container {
@@ -58,6 +68,7 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: -8px;
 }
 
 .nav-container .lines .line {
@@ -111,6 +122,11 @@ h1 {
   height: 70px;
   font-size: 1.2rem;
   background-color: #c4b52b;
+  color: white;
+}
+
+.content {
+  margin-top: 150px;
 }
 
 .content-head {
@@ -226,6 +242,86 @@ h1 {
   height: 70px;
   font-size: 1.2rem;
   background-color: #c4b52b;
+}
+
+.subscribe {
+  text-align: center;
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+
+.subscribe h2 {
+  font-size: 1rem;
+  color: rgb(170, 166, 166);
+}
+
+.subscribe-input {
+  border: none;
+  border-bottom: 1px solid rgba(170, 166, 166, 0.3);
+  font-size: 1.2rem;
+  width: 400px;
+  height: 30px;
+}
+
+.subscribe-input:placeholder-shown {
+  opacity: 0.6;
+}
+
+.sub-but {
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  background-color: #c4b52b;
+  color: white;
+}
+
+.footer-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-top: 0;
+  width: 100%;
+  height: 260px;
+  margin-bottom: 10px;
+  background-color: #c4b52b;
+}
+
+.foot-card {
+  margin-top: 15px;
+}
+
+.foot-card li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+}
+
+.t {
+  position: relative;
+  left: -42px;
+}
+
+.p {
+  position: relative;
+  margin-top: 20px;
+  left: -32px;
+}
+
+.c {
+  position: relative;
+  left: -34px;
+}
+
+.days {
+  position: relative;
+  left: -80px;
 }
 
 footer {
